@@ -15,6 +15,69 @@
             <li> <a href="contact.html"> Contact us </a> </li>
         </ul>
     </nav>
-    <h1>Contact</h1>
+
+    <h1>Contact Us</h1>
+
+    <form method="post" action="contact.html">
+
+        <div class="form-input">
+            <label>Name</label> <br/>
+            <input type="text" value="" name="fullName" placeholder="Enter your Name" />
+        </div>
+
+        <div class="form-input">
+            <label>Roll No</label><br/>
+            <input type="number" value="" name="rollNo" placeholder="Enter Roll No">
+        </div>
+
+        <!-- <div class="form-input">
+            <label>Color</label><br/>
+            <input type="color" value="" placeholder="Choose color">
+        </div> -->
+
+        <!-- <div class="form-input">
+            <label>Date</label><br/>
+            <input type="date" value="" placeholder="Choose date">
+        </div> -->
+
+        <!-- <div class="form-input">
+            <label>Time</label><br/>
+            <input type="time" value="" placeholder="Choose time">
+        </div> -->
+
+        <div class="form-input">
+            <label>Gender</label><br/>
+            <input type="radio" value="male" name="gender">Male
+            <input type="radio" value="female" name="gender">Female
+            <input type="radio" value="other" name="gender">Others
+        </div>
+
+        <div class="form-input">
+            <label>Qualification</label><br/>
+            <input type="checkbox" value="10th" name="qual">10th
+            <input type="checkbox" value="12th" name="qual">12th
+            <input type="checkbox" value="Grad" name="qual">Grad
+        </div>
+
+        <div class="form-input">
+            <label>Select State</label> <br/>
+            <select name="state">
+                <option disabled selected="selected">Select State</option>
+                <option>Andhra Pradesh</option>
+                <option >Bombay</option>
+                <option>Haryana</option>
+                <option>J&K</option>
+            </select>
+        </div>
+
+        <div class="form-input">
+            <label>Select Degree Files</label><br/>
+            <input type="file" value="" placeholder="Choose File" accept=".pdf">
+        </div>
+
+        <input type="submit" value="save" />
+
+        <!-- type -> text, date, number, color, file, radio, checkbox, submit -->
+    </form>
 </body>
 </html>

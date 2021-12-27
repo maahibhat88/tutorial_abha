@@ -77,3 +77,11 @@ footer p {
     margin: 0;
 }
 
+form{
+    padding: 15px;
+}
+
+.form-input{
+    margin-bottom: 10px;
+}
+
